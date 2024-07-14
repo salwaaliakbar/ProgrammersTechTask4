@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+.logo{
+    margin-top: 30px;
+    margin-left: 20px;
+    display: flex;
+    color: gold;
+    font-size: 40px;
+    font-family: "Lobster", sans-serif;
+}
+nav ul{
+    margin-top: 20px;
+    display: flex;
+    color: white;
+    font-size: 23px;
+    text-decoration: none;
+    list-style: none;
+    margin-right: 60px;
+}
+nav ul li{
+    padding:20px
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    cursor: pointer;
+    color:gold;
+}
+.loginclass{
+    display: flex;
+    justify-content: right;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-image: url('background.jpg');
+    
+}
+.block{
+    padding:20px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 5px solid gold;
+    margin-right: 200px;
+    width:350px;
+    height:350px;
+    text-align: center;
+    margin-top: 50px;
+}
+.block input{
+    width: 250px;
+    height: 40px;
+    margin: 8px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+.heading{
+    color: gold;
+    font-size: 40px;
+    text-align: center;
+}
+.textboxes{
+    margin-top:20px;
+}
+.button{
+    margin-top: 30px;
+    width: 250px;
+    height: 45px;
+    background-color:gold;
+    font-size: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.button:hover{
+    background-color: rgb(175, 150, 6);
+}
+.moreOptions{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.Options{
+    text-decoration: none;
+    font-size: 20px;
+    color: gold;
+    cursor: pointer;
+}
+.Options:hover{
+    font-size: 22px;
+}
+.signUpclass{
+    display: flex;
+    justify-content: right;
+    height: 130vh;
+    background-image: url('background.jpg');
+}
+.newAccount{
+    padding:20px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 5px solid gold;
+    width:350px;
+    margin-right: 200px;
+    height:570px;
+    text-align: center;
+    margin-top: 50px;
+}
+.newAccount input{
+    width: 250px;
+    height: 40px;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin: 8px;
+}
+.message{
+    margin-top: 20px;
+    font-size: 20px;
+    color: gold;
+    display: none;
+}
+.contactmain{
+    display: flex;
+    justify-content:right;
+    background-image: url('background.jpg');
+}
+.borderdark{
+    border-radius: 10px;
+    border: 5px solid gold;
+    width: 350px;
+    height: 530px;
+    text-align: center;
+    margin-right: 200px;
+    padding: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.borderdark input{
+    width:250px;
+    height: 40px;
+    margin: 5px 0;
+    padding:10px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+.borderdark textarea{
+    width:250px;
+    height: 100px;
+    margin: 5px 0;
+    padding:10px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+.indexMain{
+    display: flex;
+    height: 120vh;
+    background-image: url('frontpic.jpg');
+}
+.text{
+    margin-top: 150px;
+    margin-left: 50px;
+    color: white;
+    font-size: 20px;
+}
+.goldcolor{
+    color: gold;
+    font-family: "Lobster", sans-serif;
+    font-size: 48px;    
+}
+.textcenter{
+    text-align: center;
+}
+.Explorebutton{
+    margin-top: 30px;
+    width: 200px;
+    height: 45px;
+    background-color:gold;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+.Explorebutton:hover{
+    background-color: rgb(175, 150, 6);
+}
+.Explorebutton a{
+    text-decoration: none;
+    color: black;
+}
+footer{
+    background-color: black;
+    color: white;
+    height:50vh;
+    display: flex;
+    justify-content: space-between;
+}
+.image{
+    vertical-align: middle;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+}
+.icons{
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    padding: 5px;
+}
+.icons:hover{
+    cursor: pointer;
+}
+.contactinfo{
+    margin-top: 40px;
+    margin-left: 100px;
+}
+.quickLink{
+    margin-top: 40px;
+    margin-right: 250px;
+}
+footer div a{
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+}
+footer div a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.footergoldcolor{
+    color: gold;
+    font-family: "Lobster", sans-serif;
+    font-size: 30px;
+}
+.explore {
+    background-image: url('foodbackground.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 150vh;
+    position: relative;
+    color: white;
+}
+.explore::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1; 
+}
+.explore > * {
+    position: relative;
+    z-index: 2; 
+}
+.textforexplore{
+    font-size: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.height{
+    height: 200vh;
+}
+.maindiv{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.black{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.reviews{
+    float: left;
+    margin-left: 40px;
+    text-align: left;
+}
+.margin{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.star{
+    font-size: 1.5em;
+    display: inline;
+    position: relative;
+}
+.full{
+    color: goldenrod;
+}
+.half::before{
+    content: '\2605';
+    position: absolute;
+    color: goldenrod;
+    width: 50%;
+    overflow: hidden;
+}
+.third::before{
+    content: '\2605';
+    position: absolute;
+    color: goldenrod;
+    width: 65%;
+    overflow: hidden;
+}
+.blacktext{
+    margin-top: 50px;
+    color:black;
+    font-size: 20px;
+}
+.foodpic{
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+}
+.catagory{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 2);
+    text-align: center;
+    height: 600px;
+    font-size: 20px;
+}
+.catagory img{
+    margin-top: 50px;
+}
+.opt{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.optButton{
+    color: black;
+    font-size: 16px;
+    background-color: gold;
+    border-radius: 30px;
+    width: 120px;
+    height: 45px;
+    cursor: pointer;
+    margin:5px;
+}
+.optButton:hover{
+    background-color: rgb(175, 150, 6);
+}
+.optButton a{
+    text-decoration: none;
+    color: black;
+}
